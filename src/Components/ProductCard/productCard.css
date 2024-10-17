@@ -1,0 +1,29 @@
+.card {
+  overflow: hidden;
+  position: relative;
+}
+
+.card-img-container {
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  position: relative;
+}
+
+.card img {
+  transition: all 0.3s;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.card img:hover {
+  transform: scale(1.3);
+}
+
+.rating-icon {
+  fill: #ed8a19;
+  height: 15px;
+  width: 15px;
+  margin-right: 0.3rem;
+}
